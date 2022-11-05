@@ -20,6 +20,7 @@ body {
 
     font-size: 100%;
     background: #011526;
+        
 }
 
 .cabecalho {
@@ -28,6 +29,7 @@ body {
     align-items: center;
     justify-content: space-around;
     margin-top: -10px;
+    
     
 }
 
@@ -53,7 +55,7 @@ body {
 
 .conteudo {
     margin-bottom: 48px;
-    border-top: 0.4px solid rgba(255, 255, 255, 0.245);
+    
 }
 
 .conteudo-principal {
@@ -107,7 +109,6 @@ body {
 }
 
 .conteudo-secundario {
-    border-top: 0.4px solid rgba(255, 255, 255, 0.353);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,6 +117,7 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
     font-weight: 300;
+    padding-bottom: 100px;
 
 }
 
@@ -128,7 +130,6 @@ body {
 /* Página dos Projetos */
 
 .cabecalho-pojetos {
-    border-top: 1px solid rgba(255, 255, 255, 0.263);
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
     font-size: 35px;
@@ -158,22 +159,22 @@ body {
 
 .imagens-projetos > img {   
     width: 250px;
-    padding: 30px;
+    padding: 20px;
+    padding-bottom: 40px;
     border-radius: 50%;
     box-sizing: border-box;
 }
 
 .imagens-projetos img:hover {
-    border: 2px solid #91bbf24a;
-    transform: translate(-2px, -2px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.622);
-    transition: transform 0.3s, border 0.5s;
+   
+    transform: translate(-2px, -2px);    
+    transition: transform 0.3s;
 }
 
 .botao-github-pag-projetos {
     display: flex;
     justify-content: center;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
 
 }
 
@@ -196,12 +197,81 @@ body {
     height: 50px;
 }
 
+/* Pagina Linguagens */
+
+.cabecalho-linguagens {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    margin: 10px;
+
+}
+
+.imagens-linguagens {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.imagens-linguagens > img {
+    width: 250px;
+    margin: -50px;
+    margin-top: 30px;
+    margin-bottom: 5¡20px;
+}
+
+.imagens-linguagens img:hover {
+    transform: translate(-2px, -2px);
+    transition: transform 0.3s;
+    
+}
+
+.texto-para-linkedin {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+
+}
+
+.botao-likedin-pag-linguagens {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+
+}
+
+.botao-linkedin:hover {
+    background-color: #91BBF2;
+}
+
+.botao-linkedin {
+    background-color: #035AA6;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    align-items: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.638);
+    margin-top: 20px;
+    color: white;
+    width: 300px;  
+    height: 50px;
+}
+
+
+
 /* Config de Rodape  All Pages */
 
 
 .rodape {
     padding: 10px;
-    border-top:  0.4px solid rgba(255, 255, 255, 0.436);
+    
     
 }
 
