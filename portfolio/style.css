@@ -108,6 +108,12 @@ body {
     
 }
 
+.titulo-sobre-mim {
+    font-size: 30px;
+    padding-top: 35px;
+    align-items: center;
+}
+
 .conteudo-secundario {
     display: flex;
     flex-direction: column;
@@ -117,15 +123,75 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
     font-weight: 300;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+    font-size: 1.3em;
+    
 
 }
 
-.titulo-sobre-mim {
-    font-size: 30px;
-    padding-top: 35px;
+.conteudo-secundario p {
+    text-align: center;
+}
+
+.certificado-python {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    
+    
 }
+
+.img-certificado-python {
+    border-radius: 10px;
+    
+}
+
+.img-certificado-python:hover {
+    transform: translate(-2px, -2px);
+    transition: transform 0.3s;
+}
+
+
+.botao-certificado {
+    background-color: #035AA6;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.638);
+    margin-top: 20px;
+    color: white;
+    width: 300px;  
+    height: 50px;    
+
+}
+
+.botao-certificado:hover {
+    transform: translate(-2px, -2px);    
+    transition: transform 0.3s;
+    cursor: pointer;
+    
+}
+
+.conteudo-terceario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-weight: 300;
+    padding-bottom: 50px;
+    font-size: 1.3em;
+
+}
+
+.conteudo-terceario p {
+    text-align: center;
+}
+
+
 
 /* Página dos Projetos */
 
@@ -165,11 +231,11 @@ body {
     box-sizing: border-box;
 }
 
-.imagens-projetos img:hover {
-   
+.imagens-projetos img:hover {   
     transform: translate(-2px, -2px);    
     transition: transform 0.3s;
 }
+
 
 .botao-github-pag-projetos {
     display: flex;
@@ -229,6 +295,24 @@ body {
     
 }
 
+.texto-pag-linguagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-weight: 300;
+    padding-bottom: 50px;
+    font-size: 1.3em;
+
+}
+
+.texto-pag-linguagens p {
+    text-align: center;
+}
+
 .texto-para-linkedin {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
@@ -270,6 +354,7 @@ body {
 
 
 .rodape {
+    border-top: 2px solid rgba(255, 255, 255, 0.215);
     padding: 10px;
     
     
