@@ -2,12 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-/* Color Theme Swatches in RGBA */
-.color-theme_9c2c63eab0acefb8cdf08dd965c9b24d-1-rgba { color: rgba(145, 187, 242, 1); }
-.color-theme_9c2c63eab0acefb8cdf08dd965c9b24d-2-rgba { color: rgba(3, 90, 166, 1); }
-.color-theme_9c2c63eab0acefb8cdf08dd965c9b24d-3-rgba { color: rgba(2, 48, 89, 1); }
-.color-theme_9c2c63eab0acefb8cdf08dd965c9b24d-4-rgba { color: rgba(1, 21, 38, 1); }
-.color-theme_9c2c63eab0acefb8cdf08dd965c9b24d-5-rgba { color: rgba(3, 103, 166, 1); }
+/* Color Theme Swatches in Hex */
+.Design-gráfico-1-hex { color: #044BD9; }
+.Design-gráfico-2-hex { color: #0339A6; }
+.Design-gráfico-3-hex { color: #2291F2; }
+.Design-gráfico-4-hex { color: #1DA1F2; }
+.Design-gráfico-5-hex { color: #262626; }
 
 * {
     margin: 0;
@@ -16,10 +16,16 @@
     text-decoration: none;
 }
 
-body {
-
+html, body {
+    padding-left: 5vw;
+    max-width: 90vw;
+    height: 100vh;
     font-size: 100%;
-    background: #011526;
+    background: #262626;
+    min-height: 100vh;
+    
+    
+    
         
 }
 
@@ -43,7 +49,7 @@ body {
 .cabecalho-menu {
     display: flex;
     gap: 32px ;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
 
 }
@@ -54,16 +60,18 @@ body {
 }
 
 .conteudo {
+    border-top: 1px solid rgba(255, 255, 255, 0.126);
     margin-bottom: 48px;
     
 }
 
-.conteudo-principal {
+.conteudo-principal {    
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding-top: 40px;
+    padding-bottom: 40px;
 
 }
 
@@ -86,7 +94,7 @@ body {
 }
 
 .botao-github {
-    background-color: #035AA6;
+    background-color: #044BD9;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
     border: none;
@@ -100,102 +108,52 @@ body {
 }
 
 .botao-github:hover {
-    background-color: #91BBF2;
+    background-color: #1DA1F2;
+    cursor: pointer;
 }
 
 .meu-logo {
-    width: 200px;
+    width: 300px;
     
 }
 
-.titulo-sobre-mim {
-    font-size: 30px;
-    padding-top: 35px;
-    align-items: center;
-}
-
-.conteudo-secundario {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    margin-top: 40px;
-    font-family: 'Roboto Condensed', sans-serif;
-    color: white;
-    font-weight: 300;
-    padding-bottom: 50px;
-    font-size: 1.3em;
-    
-
-}
-
-.conteudo-secundario p {
-    text-align: center;
-}
-
-.certificado-python {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    
-}
-
-.img-certificado-python {
-    border-radius: 10px;
-    
-}
-
-.img-certificado-python:hover {
+.meu-logo:hover {
     transform: translate(-2px, -2px);
     transition: transform 0.3s;
 }
 
-
-.botao-certificado {
-    background-color: #035AA6;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 20px;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.638);
-    margin-top: 20px;
-    color: white;
-    width: 300px;  
-    height: 50px;    
-
-}
-
-.botao-certificado:hover {
-    transform: translate(-2px, -2px);    
-    transition: transform 0.3s;
-    cursor: pointer;
-    
-}
-
-.conteudo-terceario {
+.conteudo-secundario {
+    border-top: 1px solid rgba(255, 255, 255, 0.126);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 10px;
-    margin-top: 40px;
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
     font-weight: 300;
-    padding-bottom: 50px;
-    font-size: 1.3em;
+    font-size: 1.3em;    
+    padding-top: -500px;
 
 }
 
-.conteudo-terceario p {
-    text-align: center;
+.conteudo-secundario p {
+    text-align: justify;
 }
 
+.conteudo-secundario p a {
+    color: #044BD9;
+}
 
+.minha-foto {
+    width: 400px;
+    padding-bottom: 100px;
+    
+}
 
 /* Página dos Projetos */
 
 .cabecalho-pojetos {
+    border-top: 1px solid rgba(255, 255, 255, 0.126);
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
     font-size: 35px;
@@ -266,6 +224,7 @@ body {
 /* Pagina Linguagens */
 
 .cabecalho-linguagens {
+    border-top: 1px solid rgba(255, 255, 255, 0.126);
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
     font-size: 35px;
@@ -354,15 +313,15 @@ body {
 
 
 .rodape {
-    border-top: 2px solid rgba(255, 255, 255, 0.215);
-    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.126);
+   
     
     
 }
 
-.imagem-rodape {
+.imagem-rodape {    
     display: block;
     margin: 0 auto;
-    width: 150px;
+    width: 500px;
 }
 
