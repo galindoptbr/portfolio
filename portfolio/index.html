@@ -9,39 +9,68 @@
 </head>
 <body>
     <!-- nav section -->
-    <header class="cabecalho">
-        <img class="cabecalho-logo" src="imagens/meulogo.svg" alt="meu logo">
-        <nav class="cabecalho-menu">
-            <a class="cabecalho-menu-item" href="index.html">Home</a>
-            <a class="cabecalho-menu-item" href="projetos.html">About</a>
-            <a class="cabecalho-menu-item" href="linguagens.html">Projects</a>
-        </nav>
-    </header>
-    <main class="conteudo">
-        <section class="conteudo-principal">
+    <main>
+        <header class="header">
+            <img class="cabecalho-logo" src="imagens/meulogo.svg" alt="meu-logo">
+            
+            <nav class="navbar">
+                <a href="#home" id="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+            </nav>
+        </header>
+        <!-- Home Section -->
+        <section class="conteudo-principal" id="home">
             <div class="conteudo-principal-texto">
                 <h1 class="conteudo-principal-titulo-texto">Hello, it's Me</h1>
                 <h2 class="conteudo-principal-subtitulo-texto"><strong>Galindo Leite</strong></h2>
                 <h3 class="frontend-developer"><strong>Frontend in progress...</strong></h3>
                 <p class="sobre-mim">I study programmation to entry in the job market. I am very persistent and focus. I wanna make a new story in my life. </p>
-
+        
+                <!-- Buttons Social Medias -->
                 <div class="icons">
                     <a href="https://www.linkedin.com/in/galindo-leite-83342892/" target="_blank"><img src="icons/linkedin.svg" alt="linkedin" class="icons" id="linkedin"></a>
                     <a href="https://github.com/galindoptbr" target="_blank"><img src="icons/github.svg" alt="linkedin" class="icons" id="github"></a>
                     <a href="https://www.instagram.com/galindoptbr/" target="_blank"><img src="icons/instagram.svg" alt="instagram" class="icons" id="instagram"></a>
                 </div>
+                <!-- Button CV -->
                 <a href="pdf/CV Galindo.pdf" download="CV-Galindo-Frontend"><button class="botao-github"><strong>Download CV</strong></button></a>
             </div>
+            <div>
+        
+            </div>
+            <!-- My Photo 1 -->
             <img class="meu-logo" src="imagens/xicaramain.svg" alt="meu logo">
         </section>
-        <section class="conteudo-secundario">
-            
-        </section>
-    <!-- rodape -->
-    <footer class="rodape">
         
-    </footer>
+        <!-- About Section -->
+        <section class="sobre-mim-project" id="about">
+            <img class="meu-logo-project" src="imagens/xicaramain-2.svg" alt="meu-logo">
+            <div class="text-sobre">
+                <h1 id="about-me">About Me</h1>
+                <h2 id="progress">Frontend in progress...</h2>
+                <p>My name is Galindo, i have 32 years old and leave in Portugal . <br>I'm married and have two sons, Valentina and Otto. <br> I was in the Brazilian Army for 8 years, so I have discipline and focus for the challenges that are imposed on me. <br> Actually i study programmation to be a Frontend Developer, i've very creativity and i can work in pressure.
+                </p>
+                <!-- Button Read More -->
+                <a href="https://www.linkedin.com/in/galindo-leite-83342892/" target="_blank"><button class="botao-about"><strong>Read More</strong></button></a>
+            </div>
+        </section>
+        <!-- Projects Section -->
+        <section id="projects">
+            <h1 class="h1-projects">Recent Projects</h1>
+            <div class="img-projects">
+                <a href="https://github.com/galindoptbr/generator-password" target="_blank"><img id="imagens-projetos" src="imagens/project-octane-password.png" alt="octane-project"></a>
+                <a href="https://github.com/galindoptbr/projeto-player-music" target="_blank"><img id="imagens-projetos" src="imagens/project-media-player.png" alt="octane-project"></a>
+                <a href=""><img id="imagens-projetos" src="imagens/project-imc-calculator.png" alt="octane-project"></a>
+                <img id="imagens-projetos" src="imagens/project-to-do-list.png" alt="octane-project">
+            </div>
+        </section>
+        <!-- rodape -->
+        <footer class="rodape">
+        
+        </footer>
+    </main>
 
-    
+    <script src="js/script.js"></script>
 </body>
 </html>
