@@ -222,27 +222,7 @@ section {
 
 .meu-logo-project {
     max-width: 400px;
-    padding: 30px;
-    animation: floatImage 4s ease-in-out infinite;  
-}
-
-@keyframes floatImage {
-    0% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-0.5rem);
-    }
-
-    100% {
-        transform: translateY(0);
-    }
-}
-
-.meu-logo-project:hover {
-    transform: translate(-2px, -2px);
-    transition: transform 0.3s;
+    padding: 30px; 
 }
 
 .buttom-read-more {
