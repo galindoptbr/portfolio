@@ -37,6 +37,34 @@ hr {
     margin-top: 5px;
 }
 
+/* Button Scroll to Up */
+
+#progress {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    height: 40px;
+    width: 40px;
+    display: none;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.342);
+    cursor: pointer;
+    z-index: 500;
+}
+
+#progress-value {
+    display: block;
+    height: calc(100% - 5px);
+    width: calc(100% - 5px);
+    background-color: #F8F8F8;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+    color: #161E2E;
+}
+
 .header {
     display: flex;
     align-items: center;
