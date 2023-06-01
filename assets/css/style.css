@@ -15,6 +15,10 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: white;
     align-items: 0 auto;
@@ -23,6 +27,14 @@ body {
 main {
     position: relative;
     z-index: 1;
+}
+
+hr {
+    width: 200px;
+    margin: auto;
+    color: #FFC847;
+    border: 2px solid #FFC847;
+    margin-top: 5px;
 }
 
 .header {
@@ -35,6 +47,7 @@ main {
     padding-left: 4rem;
     padding-right: 4rem;
     z-index: 100;
+    position: fixed;
 }
 
 .logo {
@@ -47,6 +60,7 @@ main {
     vertical-align: middle;
     margin-top: -4px;
 }
+
 
 .navbar a {
     font-size: 1.1rem;
@@ -71,7 +85,7 @@ main {
     align-items: center;
     justify-content: space-around;
     background: #262626;
-    padding: 10px 4rem;
+    padding: 3rem 4rem;
 }
 
 .conteudo-principal-subtitulo-texto {
@@ -112,13 +126,13 @@ main {
 
 .buttom-cv {
     background: transparent;
-    font-size: 20px;
+    font-size: 18px;
     border: 1px solid white;
     border-radius: 7px;
     margin-top: 10px;
     color: white;
-    padding: 5px 25px;   
-    transition: .4s;
+    padding: 5px 20px;   
+    transition: .6s;
 }
 
 .buttom-cv:hover {
@@ -163,17 +177,69 @@ main {
     font-weight: 200;
     padding-right: 60px;
     text-align: center;
-    color: white;
+    color: #4b4a4a;
 }
 
 .enjoy {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #313131;
+    background-color: #262626fb;
 }
 
 .like-this img {
-    width: 600px;
+    width: 800px;
     
+}
+
+.container {
+    padding-bottom: 4rem;
+    background-color: #262626;
+    text-align: center;
+    color: white;
+    
+}
+
+#emoji {
+    font-size: 35px;
+}
+
+#jorney {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+#who-am-i-text {
+    color: #4b4a4a;
+    text-align: justify;
+    font-size: 18px;
+    padding-top: 1.5rem;
+    width: 500px;
+}
+
+.container h2 {
+    padding-bottom: 4rem;
+    font-size: 40px;
+    color: #FD5E36;
+}
+
+.container-about {
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 80vw;
+    margin: 0 auto;
+    background-color: #262626;
+}
+
+#who-am-i-img {
+    width: 30vw;
+    margin-right: -50px;
+}
+
+.who-am-i h3 {
+    color: #4b4a4a;
+    font-size: 40px;
 }
