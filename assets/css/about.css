@@ -1,0 +1,63 @@
+.enjoy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #262626fb;
+}
+
+.like-this img {
+    width: 800px;
+    
+}
+
+.container {
+    padding-bottom: 4rem;
+    background-color: #262626;
+    text-align: center;
+    color: white;
+    
+}
+
+#emoji {
+    font-size: 35px;
+}
+
+#jorney {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+#who-am-i-text {
+    color: #4b4a4a;
+    text-align: justify;
+    font-size: 18px;
+    padding-top: 1.5rem;
+    width: 500px;
+}
+
+.container h2 {
+    padding-bottom: 4rem;
+    font-size: 40px;
+    color: #FD5E36;
+}
+
+.container-about {
+    overflow: hidden;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 80vw;
+    margin: 0 auto;
+    background-color: #262626;
+}
+
+#who-am-i-img {
+    width: 30vw;
+    margin-left: -50px;
+}
+
+.who-am-i h3 {
+    color: #4b4a4a;
+    font-size: 40px;
+}

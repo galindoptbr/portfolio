@@ -1,0 +1,130 @@
+.header {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content: space-between;
+    background-color: #262626;
+    width: 100vw;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    z-index: 100;
+    position: fixed;
+}
+
+.logo {
+    font-size: 25px;
+    color: #FD5E36;
+}
+
+.img-logo {
+    width: 30px;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+
+.navbar a {
+    font-size: 1.1rem;
+    margin-left: 2rem;
+    font-weight: 600;
+    color: white;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: #FFC847;
+}
+
+.navbar:hover,
+#active {
+    color: #FD5E36;
+}
+
+.home {    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: #262626;
+    padding: 3rem 4rem;
+}
+
+.main-container {
+    max-width: 550px;
+}
+
+.conteudo-principal-subtitulo-texto {
+    font-weight: 400;
+    font-size: 50px;
+    color: white;
+    padding-top: 5px;
+}
+
+.sobre-mim {
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    padding-top: 25px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    width: 45px;
+    padding-top: 20px;
+    transition: .6s;
+}
+
+#linkedin:hover {
+    transform: scale(1.2);
+}
+
+#github:hover {
+    transform: scale(1.2);
+}
+
+#instagram:hover {
+    transform: scale(1.2);
+    
+}
+
+.buttom-cv {
+    background: transparent;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 7px;
+    margin-top: 10px;
+    color: white;
+    padding: 5px 20px;   
+    transition: .6s;
+}
+
+.buttom-cv:hover {
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.384);
+    cursor: pointer;
+    background-color: #FFC847;
+    color: black;
+    border: none;
+    transform: scale(1.1);
+    
+}
+
+.meu-logo {
+    max-width: 450px;
+    padding: 30px;
+    animation: floatImage 4s ease-in-out infinite;   
+}
+
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-.8rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
