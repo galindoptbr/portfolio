@@ -1,12 +1,10 @@
-.header {
+header {
     display: flex;
     align-items: center;
-    height: 60px;
     justify-content: space-between;
+    height: 60px;
     background-color: #262626;
-    width: 100vw;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    width: 1100px;
     z-index: 100;
     position: fixed;
 }
@@ -41,11 +39,9 @@
 
 .home {    
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
-    background: #262626;
-    padding: 4rem 4rem 3rem;
+    padding-top: 6rem;
 }
 
 .main-container {
@@ -100,7 +96,6 @@
 }
 
 .buttom-cv:hover {
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.384);
     cursor: pointer;
     background-color: #FFC847;
     border: 1px solid #FFC847;
@@ -108,8 +103,7 @@
 }
 
 .meu-logo {
-    max-width: 450px;
-    padding: 30px;
+    max-width: 400px;
     animation: floatImage 4s ease-in-out infinite;   
 }
 
