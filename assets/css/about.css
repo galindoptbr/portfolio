@@ -59,3 +59,32 @@
     /* color: #4b4a4a; */
     font-size: 40px;
 }
+
+.language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.flag {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.flag img {
+    width: 90px;
+    padding: 0 2rem;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.flag img:hover {
+    transform: scale(1.1);
+}
+
+.flag p {
+    color: #413f3f;
+    font-weight: 600;
+}
