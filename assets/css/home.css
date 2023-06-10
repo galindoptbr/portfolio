@@ -45,7 +45,7 @@
     align-items: center;
     justify-content: space-around;
     background: #262626;
-    padding: 3rem 4rem;
+    padding: 4rem 4rem 3rem;
 }
 
 .main-container {
@@ -96,17 +96,15 @@
     margin-top: 10px;
     color: white;
     padding: 5px 20px;   
-    transition: .6s;
+    transition: .8s;
 }
 
 .buttom-cv:hover {
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.384);
     cursor: pointer;
     background-color: #FFC847;
-    color: black;
-    border: none;
-    transform: scale(1.1);
-    
+    border: 1px solid #FFC847;
+    color: black; 
 }
 
 .meu-logo {

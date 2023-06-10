@@ -2,33 +2,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #262626fb;
+    background: #313131fb;
 }
 
 .like-this img {
-    width: 800px;
+    width: 850px;
     
 }
 
 .container {
     padding-bottom: 4rem;
     background-color: #262626;
+    margin-top: 5rem;
     text-align: center;
-    color: white;
-    
-}
-
-#emoji {
-    font-size: 35px;
-}
-
-#jorney {
-    padding-top: 3rem;
-    text-align: center;
+    color: white; 
 }
 
 #who-am-i-text {
-    color: #4b4a4a;
+    /* color: #4b4a4a; */
     text-align: justify;
     font-size: 18px;
     padding-top: 1.5rem;
@@ -43,21 +34,21 @@
 
 .container-about {
     overflow: hidden;
-    border-radius: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    max-width: 80vw;
+    max-width: 90vw;
     margin: 0 auto;
+    margin-top: 20px;
     background-color: #262626;
 }
 
 #who-am-i-img {
-    width: 30vw;
-    margin-left: -50px;
+    width: 350px;
+    border-radius: 20px;
 }
 
 .who-am-i h3 {
-    color: #4b4a4a;
+    /* color: #4b4a4a; */
     font-size: 40px;
 }
