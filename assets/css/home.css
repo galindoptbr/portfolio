@@ -30,13 +30,13 @@ header {
 }
 
 .navbar a:hover {
-    color: #FFC847;
-}
-
-.navbar:hover,
-#active {
     color: #FD5E36;
 }
+
+/* .navbar:hover,
+#active {
+    color: #FD5E36;
+} */
 
 .home {    
     display: flex;

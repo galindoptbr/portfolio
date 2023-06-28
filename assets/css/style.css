@@ -10,7 +10,6 @@
 * {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
     text-decoration: none;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -28,6 +27,19 @@ main {
     margin: 0 auto;
     position: relative;
     z-index: 1;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FD5E36;
+    border-radius: 5px;
 }
 
 /* Button Scroll to Up */
