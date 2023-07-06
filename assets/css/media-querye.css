@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+/* Color Theme Swatches in Hex */
+.Ilustração-1-hex { color: #6E7CFF; }
+.Ilustração-2-hex { color: #F2F2EB; }
+.Ilustração-3-hex { color: #FFC847; }
+.Ilustração-4-hex { color: #FD5E36; }
+.Ilustração-5-hex { color: #0D756C; }
+
+/* 
+Typical Device Breakpoint
+
+Cellphone: from 375px to 667px
+Tablet: from 1024px to 768px
+Laptop: from 1440px to 900px
+Desktop: from 1920px to 1080px
+ */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    }
+
+
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 7.5vw;
+        right: 0;
+        width: 50vw;
+        height: 95vh;
+        background: #1b1b1b;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        transform: translate(100%);
+        transition: transform 0.3s ease-in;
+    }
+
+    .navbar a {
+        margin-right: 90px;
+    }
+
+    .img-logo {
+        margin-left: 170px;
+    }
+
+    .home {    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 6rem;
+    }
+
+    .icons{
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .buttom-cv {
+        display: none;
+    }
+
+    .like-this img {
+        padding-top: 20px;
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+}
