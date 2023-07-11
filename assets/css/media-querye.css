@@ -59,7 +59,7 @@ Desktop: from 1920px to 1080px
 
     .icons{
         display: flex;
-        flex-direction: row;
+        
 
     }
 
@@ -72,5 +72,39 @@ Desktop: from 1920px to 1080px
         width: 80vw;
         margin: 0 auto;
     }
+
+    #who-am-i-img {
+        display: none;
+    }
+
+    .container-projects {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-1 {
+        position: none;
+        margin-left: -20rem;
+        
+        
+    }
+
+    .container-projects {
+        margin-top: 24rem;
+        margin-left: 8.3rem;
+    }
+
+    .more-projects {
+        display: flex;
+        flex-direction: column;
+        margin-top: 45rem;
+    }
+
+    .project-3 {
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+    }
+
+    
 
 }

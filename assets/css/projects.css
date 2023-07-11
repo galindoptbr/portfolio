@@ -57,10 +57,10 @@
 }
 
 .project-1 {
-    margin-left: 5rem;
     position: absolute;
     z-index: 2;
     padding-bottom: 7rem;
+    margin-left: 5rem;
 }
 
 .project-1 img {
