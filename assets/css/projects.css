@@ -1,116 +1,124 @@
 .container-main-projects {
-    position: relative;
-    margin-top: 5rem;
-    padding-bottom: 4rem;
-    padding-top: 4rem;
-    text-align: center;
-    color: white;
-    /* border: 1px solid white; */
+  position: relative;
+  margin-top: 5rem;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+  text-align: center;
+  color: white;
+  /* border: 1px solid white; */
 }
 
 .container-main-projects h2 {
-    padding-bottom: 4rem;
-    font-size: 40px;
-    color: #FD5E36;
+  padding-bottom: 4rem;
+  font-size: 40px;
+  color: #fd5e36;
 }
 
 .container-projects {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: #1b1b1b;
-    text-align: left;
-    margin-top: 4rem;
-    max-width: 400px;
-    padding: 3rem;
-    margin-left: 3rem;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.466);
-    position: absolute;
-    z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #1b1b1b;
+  text-align: left;
+  margin-top: 4rem;
+  max-width: 400px;
+  padding: 3rem;
+  margin-left: 3rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.466);
+  position: absolute;
+  z-index: 3;
 }
 
 .container-projects h3 {
-    padding-bottom: 1rem;
-    font-size: 25px;
+  padding-bottom: 1rem;
+  font-size: 25px;
 }
 
 .container-projects p {
-    padding-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 .button-link {
-    border: 1px solid #FD5E36;
-    font-weight: 700;
-    background: #FD5E36;
-    width: 100px;
-    padding: 7px 10px;
-    border-radius: 5px;
-    color: black;
-    transition: .8s;
+  border: 1px solid #fd5e36;
+  font-weight: 700;
+  background: #fd5e36;
+  width: 100px;
+  padding: 7px 10px;
+  border-radius: 5px;
+  color: black;
+  transition: 0.8s;
 }
 
 .button-link:hover {
-    background: transparent;
-    color: white;
-    border: 1px solid white;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
 }
 
 .project-1 {
-    position: absolute;
-    z-index: 2;
-    padding-bottom: 7rem;
-    margin-left: 5rem;
+  position: absolute;
+  z-index: 2;
+  padding-bottom: 7rem;
+  margin-left: 5rem;
 }
 
 .project-1 img {
-    margin-left: 400px;
-    width: 600px;
+  margin-left: 400px;
+  width: 600px;
+}
+
+.project-2 {
+  padding-bottom: 10px;
 }
 
 .bxs-chevron-right {
-    font-size: 20px;
-    vertical-align: middle;
-    margin-top: -5px;
+  font-size: 20px;
+  vertical-align: middle;
+  margin-top: -5px;
 }
 
 .more-projects {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    margin-top: 450px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  margin-top: 450px;
 }
 
 .more-projects img {
-    width: 300px;
-    padding-left: 1rem;
-    padding-right: 2rem;
-    transition: 1s;
-    cursor: pointer;
+  width: 300px;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  transition: 1s;
+  cursor: pointer;
 }
 
 .more-projects img:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .more-projects-box {
-    width: 220px;
-    
+  width: 250px;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 1rem;
+  background-color: #1b1b1b;
 }
 
 .more-projects-box h4 {
-    font-size: 20px;
-    padding-bottom: 1rem;
-    text-align: left;
+  font-size: 20px;
+  padding-bottom: 1rem;
+  text-align: left;
 }
 
 .more-projects-box p {
-    padding-bottom: 1rem;
-    text-align: left;
+  padding-bottom: 1rem;
+  text-align: left;
 }
+
 .video video {
-    margin-top: 5rem;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.616);
-    border-radius: 15px;
+  margin-top: 5rem;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.616);
+  border-radius: 15px;
 }

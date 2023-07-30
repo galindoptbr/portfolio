@@ -1,168 +1,167 @@
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 60px;
-    background-color: #262626;
-    width: 80%;
-    z-index: 100;
-    position: fixed;
-    padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  background-color: #262626;
+  width: 80%;
+  z-index: 100;
+  position: fixed;
+  padding: 0 100px;
 }
 
 .logo {
-    font-size: 25px;
-    color: #FD5E36;
+  font-size: 25px;
+  color: #fd5e36;
 }
 
 .img-logo {
-    width: 30px;
-    vertical-align: middle;
-    margin-top: -4px;
+  width: 30px;
+  vertical-align: middle;
+  margin-top: -4px;
 }
 
 .navbar {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 
 .navbar a {
-    font-size: 1.1rem;
-    margin-left: 2rem;
-    font-weight: 600;
-    color: white;
-    transition: .3s;
+  font-size: 1.1rem;
+  margin-left: 2rem;
+  font-weight: 600;
+  color: white;
+  transition: 0.3s;
 }
 
 .navbar a:hover {
-    color: #FD5E36;
+  color: #fd5e36;
 }
 
 /* NavBar Mobile */
 
 .mobile-menu {
-    display: none;
-    cursor: pointer;
-    margin-top: -10px;
-    margin-right: 10px;
+  display: none;
+  cursor: pointer;
+  margin-top: -10px;
+  margin-right: 10px;
 }
 
 .mobile-menu div {
-    width: 24px;
-    height: 2px;
-    background: #F8F8F8;
-    margin: 6px;
-    transition: 0.3s;
+  width: 24px;
+  height: 2px;
+  background: #f8f8f8;
+  margin: 6px;
+  transition: 0.3s;
 }
 
 .navbar.active {
-    transform: translate(0);
+  transform: translate(0);
 }
 
 @keyframes navLinkFade {
-    from {
-        opacity: 0;
-        transform: translateX(50px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .mobile-menu.active .line1 {
-    transform: rotate(-45deg) translate(-7px, 4px);
+  transform: rotate(-45deg) translate(-7px, 4px);
 }
 
 .mobile-menu.active .line2 {
-    opacity: 0;
+  opacity: 0;
 }
 
 .mobile-menu.active .line3 {
-    transform: rotate(45deg) translate(-7px, -3px);
+  transform: rotate(45deg) translate(-7px, -3px);
 }
 
-.home {    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 6rem;
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6rem;
 }
 
 .main-container {
-    max-width: 550px;
+  max-width: 550px;
 }
 
 .conteudo-principal-subtitulo-texto {
-    font-weight: 400;
-    font-size: 50px;
-    color: white;
-    padding-top: 5px;
+  font-weight: 400;
+  font-size: 50px;
+  color: white;
+  padding-top: 5px;
 }
 
 .sobre-mim {
-    font-weight: 400;
-    font-size: 18px;
-    color: white;
-    padding-top: 25px;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  padding-top: 25px;
 }
 
-.icons{
-    display: flex;
-    flex-direction: row;
-    padding: 5px;
-    width: 40px;
-    padding-top: 20px;
-    transition: .6s;
+.icons {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  width: 40px;
+  padding-top: 20px;
+  transition: 0.6s;
 }
 
 #linkedin:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 #github:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 #instagram:hover {
-    transform: scale(1.2);
-    
+  transform: scale(1.2);
 }
 
 .buttom-cv {
-    background: transparent;
-    font-size: 18px;
-    border: 1px solid white;
-    border-radius: 7px;
-    margin-top: 10px;
-    margin-left: 5px;
-    color: white;
-    padding: 5px 20px;   
-    transition: .8s;
+  background: transparent;
+  font-size: 18px;
+  border: 1px solid white;
+  border-radius: 7px;
+  margin-top: 10px;
+  margin-left: 5px;
+  color: white;
+  padding: 5px 20px;
+  transition: 0.8s;
 }
 
 .buttom-cv:hover {
-    cursor: pointer;
-    background-color: #FFC847;
-    border: 1px solid #FFC847;
-    color: black; 
+  cursor: pointer;
+  background-color: #ffc847;
+  border: 1px solid #ffc847;
+  color: black;
 }
 
 .meu-logo {
-    max-width: 400px;
-    animation: floatImage 4s ease-in-out infinite;   
+  max-width: 400px;
+  animation: floatImage 4s ease-in-out infinite;
 }
 
 @keyframes floatImage {
-    0% {
-        transform: translateY(0);
-    }
+  0% {
+    transform: translateY(0);
+  }
 
-    50% {
-        transform: translateY(-.8rem);
-    }
+  50% {
+    transform: translateY(-0.8rem);
+  }
 
-    100% {
-        transform: translateY(0);
-    }
+  100% {
+    transform: translateY(0);
+  }
 }

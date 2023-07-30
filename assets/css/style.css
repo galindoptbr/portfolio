@@ -1,71 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Staatliches&family=Tilt+Warp&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Staatliches&family=Tilt+Warp&display=swap");
 
 /* Color Theme Swatches in Hex */
-.Ilustração-1-hex { color: #6E7CFF; }
-.Ilustração-2-hex { color: #F2F2EB; }
-.Ilustração-3-hex { color: #FFC847; }
-.Ilustração-4-hex { color: #FD5E36; }
-.Ilustração-5-hex { color: #0D756C; }
+.Ilustração-1-hex {
+  color: #6e7cff;
+}
+.Ilustração-2-hex {
+  color: #f2f2eb;
+}
+.Ilustração-3-hex {
+  color: #ffc847;
+}
+.Ilustração-4-hex {
+  color: #fd5e36;
+}
+.Ilustração-5-hex {
+  color: #0d756c;
+}
 
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: #262626;
+  background-color: #262626;
 }
 
 main {
-    max-width: 1100px;
-    margin: 0 auto;
-    position: relative;
-    z-index: 1;
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
 }
 
 ::-webkit-scrollbar {
-    width: 5px;
+  width: 5px;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #000000;
+  background-color: #000000;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #FD5E36;
-    border-radius: 5px;
+  background-color: #fd5e36;
+  border-radius: 5px;
 }
 
 /* Button Scroll to Up */
 
 #progress {
-    position: fixed;
-    bottom: 20px;
-    right: 10px;
-    height: 40px;
-    width: 40px;
-    display: none;
-    place-items: center;
-    border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.342);
-    cursor: pointer;
-    z-index: 500;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  height: 40px;
+  width: 40px;
+  display: none;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.342);
+  cursor: pointer;
+  z-index: 500;
 }
 
 #progress-value {
-    display: block;
-    height: calc(100% - 5px);
-    width: calc(100% - 5px);
-    background-color: #F8F8F8;
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    font-size: 30px;
-    color: #161E2E;
+  display: block;
+  height: calc(100% - 5px);
+  width: calc(100% - 5px);
+  background-color: #f8f8f8;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 30px;
+  color: #161e2e;
 }
