@@ -81,15 +81,11 @@ Desktop: from 1920px to 1080px
     width: 20vw;
     margin-right: 20vw;
     padding-left: 0;
-    
   }
 
   #text-flag {
     position: absolute;
     margin-left: 25%;
-
-   
-    
   }
 
   /* Projects */
