@@ -77,50 +77,100 @@ Desktop: from 1920px to 1080px
     width: 90vw;
   }
 
-  .flag {
-    width: 50vw;
-    margin-left: -20px;
+  .flag img {
+    width: 20vw;
+    margin-right: 20vw;
+    padding-left: 0;
+    
   }
 
-  .container-projects {
-    display: flex;
-    flex-direction: column;
+  #text-flag {
+    position: absolute;
+    margin-left: 25%;
+
+   
+    
   }
 
-  .project-1 {
-    position: none;
-    margin-left: -20rem;
+  /* Projects */
+
+  .container-main-projects h2 {
+    padding-bottom: 0;
   }
 
-  .project-1 img {
-    margin-left: 330px;
+  .container-zucagram {
+    margin-top: -40px;
+  }
+
+  .container-zucagram img {
+    width: 95vw;
+    bottom: 108vh;
+    left: 3%;
+    z-index: 5;
+  }
+
+  .title-project p {
+    display: none;
+  }
+
+  .title-project h3 {
+    display: none;
+    margin-top: 5vh;
+    margin-left: 80%;
+    color: #ffff;
+  }
+
+  .box-project-zucagram {
     width: 90vw;
+    margin-top: 10vh;
   }
 
-  .container-projects {
-    margin-top: 18rem;
-    margin-left: 1rem;
-    width: 70vw;
+  .box-description {
+    width: 90vw;
+    margin-left: 48vw;
+    padding-top: 30vh;
   }
 
-  .more-projects {
-    display: flex;
-    flex-direction: column;
-    margin-top: 40rem;
+  /* MELANCIA */
+
+  .box-description-melancia {
+    width: 90vw;
+    padding-top: 30vh;
+    margin-top: -20vh;
+    z-index: 20;
   }
 
-  .project-3 {
-    padding-top: 3rem;
-    padding-bottom: 1rem;
+  .container-melancia img {
+    width: 95vw;
+    left: 4%;
+    bottom: 57vh;
+    z-index: 30;
+  }
+
+  .title-project-melancia p {
+    display: none;
+  }
+
+  .title-project-melancia h3 {
+    display: none;
+  }
+
+  .box-project-melancia {
+    margin-left: 2%;
+  }
+
+  #tecnologies {
+    margin-left: -2%;
   }
 
   .video video {
-    margin-top: 5rem;
+    margin-top: 3rem;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.616);
     border-radius: 15px;
-    width: 90vw;
+    width: 100vw;
   }
 
+  /* Footer */
   .container-footer img {
     display: none;
   }

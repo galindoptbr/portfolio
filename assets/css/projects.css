@@ -1,5 +1,4 @@
 .container-main-projects {
-  position: relative;
   margin-top: 5rem;
   padding-bottom: 4rem;
   padding-top: 4rem;
@@ -56,69 +55,147 @@
   border: 1px solid white;
 }
 
-.project-1 {
-  position: absolute;
-  z-index: 2;
-  padding-bottom: 7rem;
-  margin-left: 5rem;
-}
-
-.project-1 img {
-  margin-left: 400px;
-  width: 600px;
-}
-
-.project-2 {
-  padding-bottom: 10px;
-}
-
 .bxs-chevron-right {
   font-size: 20px;
   vertical-align: middle;
   margin-top: -5px;
 }
 
-.more-projects {
+/* ZUCAGRAM */
+.container-zucagram {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: justify;
-  margin-top: 450px;
 }
 
-.more-projects img {
-  width: 300px;
-  padding-left: 1rem;
-  padding-right: 2rem;
-  transition: 1s;
-  cursor: pointer;
-}
-
-.more-projects img:hover {
-  transform: scale(1.1);
-}
-
-.more-projects-box {
-  width: 250px;
-  margin: 0 auto;
+.container-zucagram img {
+  width: 50%;
+  right: 80px;
+  bottom: 970px;
   border-radius: 5px;
-  padding: 1rem;
-  background-color: #1b1b1b;
+  z-index: 0;
+  position: absolute;
 }
 
-.more-projects-box h4 {
+.box-project-zucagram {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  margin-right: 400px;
+  flex-direction: column;
+  margin-top: 2em;
+  height: 40%;
+  width: 40%;
+  z-index: 1;
+  /* border: 1px solid red; */
+}
+
+.title-project p {
+  margin-right: 3.5rem;
+}
+
+.title-project h3 {
+  margin-bottom: 0.3rem;
+  font-size: 2em;
+  color: #fd5e36;
+}
+
+.box-description {
+  width: 90%;
+  padding: 1em;
+  border-radius: 5px;
+  background-color: #1b1b1b77;
+  backdrop-filter: blur(5px);
+  text-align: justify;
+}
+
+.box-description p {
+  margin-bottom: 20px;
+}
+
+#tecnologies-1 {
+  bottom: 1px;
+  width: 95px;
+  left: 75%;
+  margin-bottom: 10px;
+}
+
+
+
+/* MELANCIA */
+.container-melancia {
+  /* border: 1px solid white; */
+  margin-top: 200px;
+}
+
+.container-melancia img {
+  width: 50%;
+  left: 80px;
+  bottom: 550px;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 10;
+}
+
+.box-project-melancia {
+  display: flex;
+  justify-content: flex-start;
+  text-align: right;
+  flex-direction: column;
+  margin-left: 550px;
+  height: 40%;
+  width: 40%;
+  position: relative;
+  z-index: 15;
+  /* border: 1px solid red; */
+}
+
+.box-description-melancia {
+  width: 90%;
+  padding: 1em;
+  border-radius: 5px;
+  background-color: #1b1b1b77;
+  backdrop-filter: blur(5px);
+  text-align: justify;
+  /* border: 1px solid red; */
+}
+
+.box-description-melancia a {
+  margin-left: 69%;
+}
+
+.box-description-melancia p {
+  margin-bottom: 20px;
+}
+
+.title-project-melancia h3 {
+  margin-bottom: 0.3rem;
+  padding-right: 1rem;
+  font-size: 2em;
+  color: #fd5e36;
+}
+
+.title-project-melancia p {
+  padding-right: 1rem;
+}
+
+#tecnologies {
+  bottom: 1px;
+  width: 100px;
+  margin-bottom: 10px;
+  margin-right: 100%;
+  margin-left: -15%;
+}
+
+.bxs-chevron-left {
   font-size: 20px;
-  padding-bottom: 1rem;
-  text-align: left;
+  vertical-align: middle;
+  margin-top: -5px;
 }
 
-.more-projects-box p {
-  padding-bottom: 1rem;
-  text-align: left;
-}
 
 .video video {
-  margin-top: 5rem;
+  margin-top: 150px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.616);
-  border-radius: 15px;
+  border-radius: 5px;
 }
