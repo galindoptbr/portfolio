@@ -100,7 +100,7 @@ Desktop: from 1920px to 1080px
 
   .container-zucagram img {
     width: 95vw;
-    bottom: 108vh;
+    bottom: 150vh;
     left: 3%;
     z-index: 5;
   }
@@ -123,15 +123,19 @@ Desktop: from 1920px to 1080px
 
   .box-description {
     width: 90vw;
-    margin-left: 48vw;
-    padding-top: 30vh;
+    margin-left: 50vw;
+    padding-top: 40vh;
+  }
+
+  #tecnologies-1 {
+    left: 2%;
   }
 
   /* MELANCIA */
 
   .box-description-melancia {
     width: 90vw;
-    padding-top: 30vh;
+    padding-top: 40vh;
     margin-top: -20vh;
     z-index: 20;
   }
@@ -139,7 +143,7 @@ Desktop: from 1920px to 1080px
   .container-melancia img {
     width: 95vw;
     left: 4%;
-    bottom: 57vh;
+    bottom: 70vh;
     z-index: 30;
   }
 
@@ -155,18 +159,26 @@ Desktop: from 1920px to 1080px
     margin-left: 2%;
   }
 
+  a.button-link {
+    margin-left: 220px;
+  }
+
   #tecnologies {
     margin-left: -2%;
   }
 
   .video video {
     margin-top: 3rem;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.616);
     border-radius: 15px;
-    width: 100vw;
+    width: 95vw;
+    margin: 20px 20px;
   }
 
   /* Footer */
+  footer {
+    margin-left: 11px;
+  }
+
   .container-footer img {
     display: none;
   }
@@ -181,6 +193,10 @@ Desktop: from 1920px to 1080px
 
   .button-footer {
     display: none;
+  }
+
+  #progress {
+    right: 30px;
   }
 }
 
