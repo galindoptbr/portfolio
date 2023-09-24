@@ -65,6 +65,10 @@ Desktop: from 1920px to 1080px
     width: 90vw;
   }
 
+  .container {
+    margin-left: 5%;
+  }
+
   .container h2 {
     padding: 1rem;
   }
@@ -98,11 +102,8 @@ Desktop: from 1920px to 1080px
     margin-top: -40px;
   }
 
-  .container-zucagram img {
-    width: 95vw;
-    bottom: 150vh;
-    left: 3%;
-    z-index: 5;
+  figure img {
+    display: none;
   }
 
   .title-project p {
@@ -124,27 +125,32 @@ Desktop: from 1920px to 1080px
   .box-description {
     width: 90vw;
     margin-left: 50vw;
-    padding-top: 40vh;
   }
 
   #tecnologies-1 {
-    left: 2%;
+    left: 70%;
+  }
+
+  #h3-mobile {
+    padding-bottom: 16px;
+    color: #fd5e36;
+    font-size: 24px;
   }
 
   /* MELANCIA */
 
   .box-description-melancia {
     width: 90vw;
-    padding-top: 40vh;
     margin-top: -20vh;
     z-index: 20;
   }
 
-  .container-melancia img {
-    width: 95vw;
-    left: 4%;
-    bottom: 70vh;
-    z-index: 30;
+  .box-description-melancia a {
+    margin-left: 65%;
+  }
+
+  figure img {
+    display: none;
   }
 
   .title-project-melancia p {
@@ -159,14 +165,6 @@ Desktop: from 1920px to 1080px
     margin-left: 2%;
   }
 
-  a.button-link {
-    margin-left: 220px;
-  }
-
-  #tecnologies {
-    margin-left: -2%;
-  }
-
   .video video {
     margin-top: 3rem;
     border-radius: 15px;
@@ -176,7 +174,7 @@ Desktop: from 1920px to 1080px
 
   /* Footer */
   footer {
-    margin-left: 11px;
+    width: 110vw;
   }
 
   .container-footer img {
